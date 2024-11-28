@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   
+   <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f0f8ff, #f1f1f4);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #003366;
+            color: orangered;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: left;
+            margin-top: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+            .nav-links li {
+                margin: 0 15px;
+            }
+
+            .nav-links a {
+                color: white;
+                font-weight: 500;
+                transition: color 0.3s ease;
+            }
+
+                .nav-links a:hover {
+                    color: orangered;
+                }
+
+        .research img{
+            width: 50%;
+            border-radius: 10px;
+            text-align: center;
+            margin-left: 20%;
+            margin-top: 3%;
+        }
+
+        h2{
+            background-color: lightgray;
+            margin-top: 3%;
+            height: 50px;
+            text-align:left;
+        }
+
+        h3{
+            color: orangered;
+            margin-top: 3%;
+            height: 50px;
+            text-align:center;
+            font-size: 1.5em;
+            
+        }
+
+        .civil img {
+            width: 30%;
+            border-radius: 10px;
+            text-align: left;
+            margin-left: 30%;
+            margin-top: 3%;
+        }
+        .civil p{
+            color: orangered;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        @media(max-width: 700px){
+            .civil-col{
+                flex-direction: column;
+            }
+        }
+
+         /* Footer Section */
+         footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+            footer p {
+                font-size: 0.9em;
+            }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="researches">
+            <div class="research">
+                <img src="images/COE extensiono.png">
+            <h2>EXTENSION</h2>
+            <p>The College of Enginerering Research and Extension Framework</p>
+        <nav>
+            <h3>Accomplishments</h3>
+        </nav>
+        </div>
+        </section>
+
+        <section class="civil-col">
+            <div class="civil-col">
+            <div class="civil">
+                <img src="images/Fish-crusher.png">
+            <p>BSME Department awards and demonstrates the Fish Crushing Machine to Laoag Kaunlaran Association</p>
+            
+            </div>
+            </div>
+        </section>
+    </main>
+
+        <footer>
+            <p>&copy; 2024 PRMSU College of Engineering. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
